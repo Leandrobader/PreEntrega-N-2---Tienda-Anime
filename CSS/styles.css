@@ -1,4 +1,67 @@
-body{
+*{
     margin: 0;
     padding: 0;
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    background-color: #FFFFFC;
+    min-height: 100vh;
+}
+
+/* --------------------------- ESTILOS HEADER ---------------------*/
+
+.cabecera{
+    background-color: #ff7f11;
+    text-align: center;
+    border: #ff7f11 1px solid;
+}
+.cabecera p{
+    padding-top: 1rem;
+    color: #FFFFFC;
+}
+
+@media (max-width: 991px){
+    .ocultar{
+        display: none;
+    }
+}
+
+.navbar-nav{
+    align-items: center;
+}
+
+.nav-link{
+    color: #ff7f11 !important;
+    font-size: 1.5rem !important;
+}
+
+.nav-link:hover{
+    color: #FF1B1C !important;
+}
+
+.fa-brands{
+    margin: 1rem;
+}
+
+.icon-instagram:hover{
+    color: #E4405F !important;
+}
+
+.icon-facebook:hover{
+    color: #1877F2 !important;
+}
+
+.icon-whatsapp:hover{
+    color: #25D366 !important;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
