@@ -15,16 +15,6 @@ body{
 
 /* --------------------------- ESTILOS HEADER ---------------------*/
 
-.cabecera{
-    background-color: #ff7f11;
-    text-align: center;
-    border: #ff7f11 1px solid;
-}
-.cabecera p{
-    padding-top: 1rem;
-    color: #FFFFFC;
-}
-
 @media (max-width: 991px){
     .ocultar{
         display: none;
@@ -65,3 +55,62 @@ body{
     flex-direction: row;
     justify-content: center;
 }
+
+/* -----------------------  FIN Estilos HEADER   -----------------------*/
+.carousel-inner .carousel-item img {
+    height: 614px; 
+    object-fit: cover; 
+  }
+
+.carousel-inner .carousel-caption h5{
+    font-size: 3rem;
+}
+
+.carousel-inner .carousel-caption p{
+    font-size: 1.5rem;
+}
+
+/* ----------------------INICIO ESTILOS CARDS -------------------- */
+
+.card-categorias {
+    height: 350px !important;
+  }
+  
+.card-img {
+    height: 100%; 
+    object-fit: cover; 
+    opacity: 0.3;
+  }
+
+.card-img-overlay h1{
+    color: #FF1B1C;
+}
+
+/* ---------------------- Estilos Banner ------------------------*/
+
+.fondo{
+    background-color: #F2F2F2;
+}
+
+.card-banner{
+    border: none !important;
+    background-color: #fffffc00 !important;
+}
+
+.card-banner svg{
+    width: 6rem;
+}
+
+/* -------------------- FIN estilos banner ------------------- */
+/* -------------------- Inicio estilos footer ------------------- */
+
+footer{
+    background-color: #000000;
+    height: 5rem;
+    text-align: center;
+    color: #ff7f11;
+    padding-top: 1rem ;
+    margin-top: 1rem;
+}
+
+/* ------------------ FIN Estilos footer -------------------------- */
