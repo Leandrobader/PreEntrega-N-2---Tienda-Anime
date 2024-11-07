@@ -32,7 +32,6 @@ body{
 
 .nav-link:hover{
     color: #FF1B1C !important;
-    text-decoration: underline;
 }
 
 .fa-brands{
@@ -58,59 +57,6 @@ body{
 }
 
 /* -----------------------  FIN Estilos HEADER   -----------------------*/
-.carousel-inner .carousel-item img {
-    height: 614px; 
-    object-fit: cover; 
-  }
-
-.carousel-inner .carousel-caption h5{
-    font-size: 3rem;
-}
-
-.carousel-inner .carousel-caption p{
-    font-size: 1.5rem;
-}
-
-/* ----------------------INICIO ESTILOS CARDS -------------------- */
-
-.card-categorias {
-    height: 350px !important;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  transition: transform 0.2s;
-  }
-
-.card-categorias:hover{
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-  
-.card-img {
-    height: 100%; 
-    object-fit: cover; 
-    opacity: 0.3;
-  }
-
-.card-img-overlay h1{
-    color: #FF1B1C;
-}
-
-/* ---------------------- Estilos Banner ------------------------*/
-
-.fondo{
-    background-color: #F2F2F2;
-}
-
-.card-banner{
-    border: none !important;
-    background-color: #fffffc00 !important;
-}
-
-.card-banner svg{
-    width: 6rem;
-}
-
-/* -------------------- FIN estilos banner ------------------- */
 /* -------------------- Inicio estilos footer ------------------- */
 
 footer{
@@ -123,3 +69,19 @@ footer{
 }
 
 /* ------------------ FIN Estilos footer -------------------------- */
+/*  ----------------------- ESTILOS PAGINA CONTACTO */
+
+.titulo{
+    margin-top: 9rem;
+}
+
+.btn{
+    background-color:#ff7f11;
+    color: #000000;
+    border: #ff7f11;
+}
+
+.btn:hover{
+    background-color: #FF1B1C ;
+    color: #FFFFFC;
+}
